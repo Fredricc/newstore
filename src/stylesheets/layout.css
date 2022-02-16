@@ -1,0 +1,79 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.navbar{
+    background-color: rgb(238,34,41) !important;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.navbar-brand{
+    color: aliceblue !important;
+    font-weight: bold !important;
+}
+.nav-link{
+    color: aliceblue !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.content{
+    padding-top: 80px;
+}
+.footer{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(238,34,41) !important;
+    color: aliceblue !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+button{
+    background-color: rgb(238,34,41);
+    box-shadow: none;
+    border: 1px solid rgba(240, 248, 255, 0.692);
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10%;
+}
+button:hover{
+    background-color: rgb(179, 176, 20) ;
+    color: black;
+    font-weight: bold;
+}
+.loader{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;  
+}
+.spinner-grow{
+    height: 100px;
+    width: 100px;
+}
+.navbar-toggler{
+    color: white !important;
+    
+}
+/* input , select {
+    
+} */
+#uncontrolled-tab-example-tab-products{
+    color: black !important;
+}
+.nav-item button{
+    color: black !important;
+}
+.nav-tabs{
+    background-color: aliceblue;
+}
+/* the mobile view styling
+@media all and (max-width:786px) {
+    .navbar-toggler-icon{
+     
+        display: hidden !important;
+    }
+} */
